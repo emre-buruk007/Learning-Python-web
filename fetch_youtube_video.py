@@ -24,8 +24,4 @@ def fetch_youtube_video(link):
         "Views": views_as_int,
         "Date": upload_date
     }
-    print(collected_data)
     return collected_data
-
-
-fetch_youtube_video(link)
