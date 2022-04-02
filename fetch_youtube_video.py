@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 
 
-link = input("Please input the link of a youtube video:\n")
+# link = input("Please input the link of a youtube video:\n")
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
