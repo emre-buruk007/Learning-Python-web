@@ -7,7 +7,7 @@ def export_to_csv(dataframe):
 
 
 def export_to_xlsx(dataframe):
-    data_frame.to_excel('results.xlsx', engine="xlsxwriter")
+    dataframe.to_excel('results.xlsx', engine="xlsxwriter")
 
 
 video_data = fetch_youtube_video(input("Please input the link of a youtube video:\n"))
