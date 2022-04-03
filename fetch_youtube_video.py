@@ -19,9 +19,9 @@ def fetch_youtube_video(link):
     modified_views_string = video_views[:-6]  # -6 is to cut out " views" from the received result
     views_as_int = int(modified_views_string.replace(',', ''))  # this is to remove the comma so the number can be freely parsed to int
 
-    collected_data = {
+    collected_data = [{
         "VideoName": video_title,
         "Views": views_as_int,
         "Date": upload_date
-    }
+    }]
     return collected_data
